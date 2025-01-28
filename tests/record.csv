@@ -2,7 +2,10 @@ cpu i5-12600k
 memory 32*2 2133
 disk samsung ssd 980 pro 1T
 
-roleBase, layer, objBase, setupTime, checkTime, targetID, db
+memberCount, layer, objCount, setupTime, checkAverageTime, roleCount, cpu, memory, disk usage, mode
+
+
+roleBase, layer, objBase, setupTime, checkTime, targetID, , db
 3, 3, 10, 686, 1.56, 119, pg
 4, 4, 10, 4386, 2.5, 839, pg
 5, 5, 10, 37215, 17.44, 7799, pg
